@@ -2,7 +2,11 @@
 
 ### Introduction
 
-This portfolio was made with the React JavaScript library to showcase my front-end development skills. It is a responsive website that presents my personal information, projects, and experience.
+This is a front-end portfolio created using React. The purpose of this project is to showcase my skills and projects as a web developer. It is a responsive website that presents my personal information, projects, and experience.
+
+This portfolio was inspired by [Dorota1997](https://github.com/Dorota1997)'s amazing portfolio template. The clean and modern design caught my eye, and I knew I had to use it as inspiration for my own portfolio.
+
+I want to give a special thanks to Dorota1997 for the incredible work she's done and for inspiring me to create my own portfolio.
 
 ### Features
 
