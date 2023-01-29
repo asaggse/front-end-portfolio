@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+  cursor: default;
+}
+
+.App .section-title {
+  font-weight: 400;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+/* HEADER */
+.App-header {
+  background-color: #e9d5a1;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #353239;
+}
+
+.App-header h1 {
+  font-size: 200%;
+  font-weight: 600;
+  margin: 0 auto;
+}
+
+.App-header p {
+  font-size: 100%;
+  font-weight: 400;
+}
+
+/* ABOUT ME */
+.App-about {
+  background-color: #fff;
+  min-height: 40vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.App-about .my-photo {
+  background-color: #ffffff;
+  transform: rotate(-4deg);
+  margin: 0 75px 30px;
+  padding: 15px 15px 30px;
+  text-align: center;
+
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+  -webkit-transition: all .20s linear;
+  -moz-transition: all .20s linear;
+  transition: all .20s linear;
+  z-index: 0;
+  position: relative;
+}
+
+.App-about .my-photo:after {
+  color: #333;
+  font-size: 25px;
+  content: attr(title);
+  position: relative;
+  top: 15px;
+}
+
+.App-about img {
+  /* display: block; */
+  width: 250px;
+}
+
+.App-about .my-photo:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  transform: scale(1.2);
+  z-index: 10;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+}
+
+.App-about .container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  /* border-radius: 0.25rem; */
+  border-radius: 10px;
+
+  box-sizing: border-box;
+  width: 700px;
+  height: 150px;
+  padding: 10px;
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.App-about .container p {
+  margin: 0;
+  text-align: justify
+}
+
+/* PROJECTS */
+.App-projects {
+  min-height: 40vh;
+  background-color: #e9d5a1;
+}
+
+.App-projects .container {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+.App-projects .my-project {
+  width: 300px;
+  height: 300px;
+
+  cursor: pointer;
+
+  -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .5);
+  -webkit-transition: all .20s linear;
+  -moz-transition: all .20s linear;
+  transition: all .20s linear;
+  z-index: 0;
+  position: relative;
+}
+
+.App-projects .my-project:hover {
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  transform: scale(2);
+  z-index: 10;
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .9);
+  -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .9);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .9);
+}
+
+.App-projects .img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover
+}
+
+/* FOOTER */
+.App-footer {
+  background: #1F1F1F;
+  min-height: 10vh;
+  width: 100%;
+  overflow: hidden;
+  color: white;
+  position: relative;
+  text-align: center;
+
+  cursor: default;
+}
+
+.App-footer i,
+a {
+  font-size: 48px;
+  padding: 24px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.App-footer .social-links {
+  margin-top: 25px;
+}
+
+.App-footer p {
+  font-size: 12px;
+}
