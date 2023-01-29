@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/front-end-portfolio/static/css/main.55782722.css",
+    "main.js": "/front-end-portfolio/static/js/main.c270f996.js",
+    "static/js/787.3fe8b5fc.chunk.js": "/front-end-portfolio/static/js/787.3fe8b5fc.chunk.js",
+    "static/media/photo.jpg": "/front-end-portfolio/static/media/photo.e5fd079e810e8d62613b.jpg",
+    "static/media/Calculator.png": "/front-end-portfolio/static/media/Calculator.1f4872fc2e40b3de5b23.png",
+    "static/media/TicTacToe.png": "/front-end-portfolio/static/media/TicTacToe.fe50caa27193e95569b7.png",
+    "index.html": "/front-end-portfolio/index.html",
+    "main.55782722.css.map": "/front-end-portfolio/static/css/main.55782722.css.map",
+    "main.c270f996.js.map": "/front-end-portfolio/static/js/main.c270f996.js.map",
+    "787.3fe8b5fc.chunk.js.map": "/front-end-portfolio/static/js/787.3fe8b5fc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.55782722.css",
+    "static/js/main.c270f996.js"
+  ]
+}
