@@ -49,3 +49,5 @@ The website will be running on `http://localhost:3000`
 [Portfolio Template](https://github.com/Dorota1997/react-frontend-dev-portfolio.git) by [Dorota1997](https://github.com/Dorota1997)
 
 [Polaroid effect](https://www.w3docs.com/snippets/css/how-to-create-polaroid-image-with-css.html#)
+
+[GitHub Ref Corner](https://tholman.com/github-corners/)
