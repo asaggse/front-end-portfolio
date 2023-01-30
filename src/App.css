@@ -112,6 +112,11 @@
   background-color: #e9d5a1;
 }
 
+.App-projects .project-title {
+  font-size: 24px;
+  font-weight: 300;
+}
+
 .App-projects .container {
   /* display: flex; */
   align-items: center;
@@ -148,6 +153,11 @@
   max-width: 100%;
   height: auto;
   object-fit: cover
+}
+
+.App-projects .project-description {
+  font-size: 16px;
+  margin: 0;
 }
 
 /* FOOTER */

@@ -5,12 +5,13 @@ const renderProjects = projects => {
     return projects.map(project => {
         return (
             <div key={project.title} className="container">
-                <h1 className="preview-title">{project.title}</h1>
+                <h1 className="project-title">{project.title}</h1>
                 <div className="preview">
                     <a href={project.link} target="_blank" rel="noreferrer">
                         <img src={project.image} alt={project.title} className="my-project" />
                     </a>
                 </div>
+                <p className="project-description">{project.description}</p>
             </div>
         );
     });
